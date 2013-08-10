@@ -137,23 +137,30 @@ header {
 
 
 .home-header-image {
-  background: #000 url(home-top.jpg) center 0 no-repeat;
+  background: #000 url(hero1.jpg) center 0 no-repeat;
   height: 470px;
   width: 100%;
   min-width: 1024px;
   position: absolute;
+  background-position: 50% 50%;
+  background-size:auto 50%;
 }
 
 .home-header-image.image2 {
-  background: #000 url(home-top-2.jpg) center 0 no-repeat;
+  background: #000 url(hero2.jpg) center 0 no-repeat;
+  background-position: 50% 50%;
+    background-size:auto 50%;
 }
 
 .home-header-image.image3 {
-  background: #000 url(home-top-3.jpg) center 0 no-repeat;
+  background: #000 url(hero3.jpg) center 0 no-repeat;
+  background-position: 50% 50%;
+  background-size:auto 50%;
 }
 
 .home-header-image.image4 {
-  background: #000 url(home-top-4.jpg) center 0 no-repeat;
+  background: #000 url(hero4.jpg) center 0 no-repeat;
+  background-position: 50% 50%;
 }
 
 .header-image {
@@ -493,154 +500,18 @@ header .container nav a:active {
   }
 
 }
-
-/* Fix for Webkit position error */
-@media screen and (max-height: 900px) and (-webkit-min-device-pixel-ratio:0) {
-  .header-home-boxes {
+ .header-home-boxes {
     top: -300px;
+    opacity:0.7;
+    filter: alpha(opacity = 70);
   }
-}
-
-
-/* ============================================================================
-   Header: Screens where height < 600px
-   ========================================================================= */
-
-@media screen and (max-height: 600px) {
-
-  .header-logo {
-    margin-top: -20px;
-  }
-
-  .home-header-images {
-    height: 300px;
-  }
-
-  .home-header-image {
-    height: 300px;
-  }
-
-  .home-header-image-next,
-  .home-header-image-previous {
-    top: 240px;
-  }
-
-  .header-home-boxes {
-    top: -270px;
-    background: #fff;
-    height: 130px;
-    padding: 30px 40px;
-  }
-
-  .header-home-box .bd p {
-    margin-top: 1em;
-  }
-
-  .header-home-box .bd p:first-child {
-    display: none;
-  }
-
-  .nav-info-box {
-    top: 95px;
-  }
-
-}
-
-/* Fix for Webkit position error */
-@media screen and (max-height: 600px) and (-webkit-min-device-pixel-ratio:0) {
-  .header-home-boxes {
-    top: -220px;
-  }
-}
-
-
-/* ============================================================================
-   Sub Page Navigation
-   ========================================================================= */
-
-.sub-navigation {
-  float: left;
-  width: 240px;
-  margin: 40px 40px 0 0;
-}
-
-.sub-navigation ul {
-  margin: 0;
-  padding: 0;
-}
-
-.sub-navigation a {
-  display: block;
-  padding: 7px 0 3px 30px;
-  color: #484848;
-  text-decoration: none;
-}
-
-.sub-navigation a:hover {
-  background-color: #fff;
-}
-
-.sub-navigation .ul-solutions {
-  margin-top: 20px;
-}
-
-.sub-navigation .ul-section > li > a {
-  color: #fff;
-  background: transparent url(../images/icons.png) 0 -80px no-repeat;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  .sub-navigation .ul-section > li > a {
-           background-image:url(../images/icons2x.png);
-      -moz-background-size: 30px 2800px;
-       -ie-background-size: 30px 2800px;
-        -o-background-size: 30px 2800px;
-   -webkit-background-size: 30px 2800px;
-           background-size: 30px 2800px;
-  }
-}
-
-.sub-navigation .ul-solutions > li > a {
-  padding-left: 0;
-}
-
-.sub-navigation > ul > li > a {
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.sub-navigation > ul > li > a,
-.sub-navigation > ul > li > ul > li > a {
-  text-transform: uppercase;
-}
-
-.sub-navigation > ul > li > ul > li > a {
-  background: transparent url(../images/icons.png) 0 -140px no-repeat;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  .sub-navigation > ul > li > ul > li > a {
-           background-image:url("../images/icons2x.png");
-      -moz-background-size: 30px 2800px;
-       -ie-background-size: 30px 2800px;
-        -o-background-size: 30px 2800px;
-   -webkit-background-size: 30px 2800px;
-           background-size: 30px 2800px;
-  }
-}
-
-.sub-navigation > ul > li > ul > li > ul > li > a {
-  background: transparent url(../images/icons.png) 0 -180px no-repeat;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  .sub-navigation > ul > li > ul > li > ul > li > a {
-           background-image:url(../images/icons2x.png);
-      -moz-background-size: 30px 2800px;
-       -ie-background-size: 30px 2800px;
-        -o-background-size: 30px 2800px;
-   -webkit-background-size: 30px 2800px;
-           background-size: 30px 2800px;
-  }
+  .headerGradient{
+ background: #fff;
+background: -moz-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
+background: -webkit-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
+background: -o-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
+background: -ms-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
+background: linear-gradient(to bottom, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
 }
 
 .sub-navigation .ul-solutions > li > a,
