@@ -27,6 +27,7 @@
 .column-main {
  float:left;
  width:62%;
+ text-align:justify;
  } 
 
 .column-main section {
@@ -46,6 +47,7 @@
  font-size:0.875em; /*14px/16px/*/
  line-height:1.575em;
  width:32%;
+ text-align:justify;
  }
  
 .column-secondary h2 {font-size:1.714285714285714em;} 
