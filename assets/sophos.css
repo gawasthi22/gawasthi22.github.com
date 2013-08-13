@@ -10,7 +10,7 @@
 }
 .tk-ff-din-web-pro{font-family:"ff-din-web-pro",sans-serif;}
 .well {
-background: #F1F1F1;
+background: #fff;
 padding: 20px;
 border-radius: 5px;
 font-size: 13px;
@@ -27,7 +27,7 @@ zoom: 1;
 padding: 30px;
 }
 .well-contact .tab-list {
-width: 210px;
+width: 160px;
 float: left;
 margin-right: 50px;
 }
@@ -48,16 +48,16 @@ list-style-type: none;
 }
 .tab-list li a {
 display: block;
-padding: 5px 35px 5px 15px;
+padding: 5px 15px 5px 15px;
 border: 1px solid rgba(0,0,0,0.0);
 font-size: 16px;
 color: #555;
 }
 .tab-list li.selected a {
 color: #0074C4;
-border: 1px solid #DDD;
+border: 1px solid #ccc;
 border-radius: 15px;
-background: #fff url("/SophosNext/Assets/Images/arrow-right-light.png") 95% center no-repeat;
+background: #DDD;
 }
 .contact-content h2 {
 margin: 0 0 15px;
@@ -67,7 +67,7 @@ content: "";
 display: table;
 }
 .contact-details {
-background: #FFF;
+background: #F1F1F1;
 border: 1px solid #DDD;
 border-radius: 5px;
 }

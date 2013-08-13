@@ -2,23 +2,40 @@
 <html lang="en" ><meta charset="utf-8">
 <title>Pace IT Solutions & Services</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <link rel="stylesheet" media="screen" href="assets/base.css">
   <link rel="stylesheet" media="screen" href="assets/layout.css">
   <link rel="stylesheet" media="screen" href="assets/modules.css">
+  <link rel="stylesheet" media="screen" href="assets/themes.css">
+  <link rel="stylesheet" media="screen" href="assets/regions.css">
+    <link rel="stylesheet" media="screen" href="assets/sophos.css">
 
+  <!-- Trigger HTML5 elements in IE < 9 -->
+  <script src="assets/cph1jec.js" type="text/javascript" async=""></script>
   <style type="text/css" media="screen">
     .wf-loading {
       visibility: hidden;
     }
   </style>
-
-<meta name="description" content="">
+<!-- HEADER.PHP V2.00 END --><meta name="description" content="">
 <meta name="keywords" content="">
-<style type="text/css">.tk-ff-din-web-pro{font-family:"ff-din-web-pro",sans-serif;}</style><!-- <link rel="stylesheet" href="http://use.typekit.com/c/90dc80/ff-din-web-pro:n3:n4:n7.TtV:M:2,TkQ:M:2,TkS:M:2/d?3bb2a6e53c9684ffdc9a9ef71b5b2a62e7d353fb058d38b4cb6c335a032b179ccfa5b818bde43ebc17438c2ef33fd6532bfb5d6da17580f1ba8bed710f34ca0d4eebef068e7dd789de63d7bedec54b09b4fa9c382ecbf255cfdfeff133a74f66ff4eb4b4358eec8b10a033124549137ea879df3ec489d6921f3d6dd71916951c070df2a517940e4662f59261449ee97e699f4cf308dd2deb2d1ca690d4710fdab894935a2fe277cccbef90baff43c37e42ce8cd5616ace7362781bd13ad3a78ad57886f7c5deedbc7b0eb81955538a89d4ebbeaccd54a7cf41a872c6d63ba39a54cba27bdaa06ba585387ebf24b9097b7e3e4e27e6c6d72df73b7f8bd24950289f7ee0455fee5acb0aaad17bf883de00d840280f88014ec8aff1706471a5c587f14efb8813d0564f76e76d3833a323942f83c99d7d94732bbc96169172c0751ef620deb397a004661b433012a44eb9006d926035c36516659831bf1a25bbf65a181ed07de0c293562c410bcb45a12ae8116b22ad4423b63840a43304cf3c16444053d8ad0ff061c0ac01dbaf412b57ce3e10bc7a4e5a131cea6851"><meta name="date-revision-ddmmyyyy" content="05082013"> -->
+<style type="text/css">
+    .headerGradient {
+background: #fff;
+background: -moz-linear-gradient(top, #00622f 0%,#b7dc7c 1%, #fff 37%);
+background: -webkit-linear-gradient(top, #00622f 0%,#b7dc7c 1%, #fff 37%);
+background: -o-linear-gradient(top, #00622f 0%,#b7dc7c 1%, #fff 37%);
+background: -ms-linear-gradient(top, #00622f 0%,#b7dc7c 1%, #fff 37%);
+background: linear-gradient(to bottom, #00622f 0%,#b7dc7c 1%, #fff 37%);
+}
+</style>
 </head>
+
 <body>
 <!--TOP.PHP V1.00  BEGIN  -->
+
 <div class="theme-default">
+
 	<header class="headerGradient" style="padding-top:25px">
 	    <div class="container">
 
@@ -27,11 +44,11 @@
 	    <a class="careers" href="#">&nbsp;Careers | <div class="careerhover">Sorry, currently no positions are available</div></a>
 	    <a href="contactUs.html">&nbsp;Contact Us</a>
 	    </div>
-	    <a href="index.html"><img class="header-logo" width="100" height="100" src="images/logo.png" alt="Pace IT Solutions & Services"></a>
+	     <a href="index.html"><img class="header-logo" width="100" height="100" src="images/logo.png" alt="Pace IT Solutions & Services"></a>
 
 	    <div class="Headertext" style="position:relative;top:-90px;left:144px;font-family:'ff-din-web-pro','Lucida Sans Unicode', 'Lucida Grande';color:#303030;font-size:40px;text-shadow:1px 1px 1px #000;">Pace IT Solutions & Services <span style="font-size:24px;color:#888888;text-shadow:none; border-left:1px solid #ccc;">&nbsp;Enabling Business through IT</span></div>
 	    <nav style="top:78px;">
-	    <ul id="js-header-nav">
+	   <ul id="js-header-nav">
 	    <li>
 	    <a href="index.html" title="Home">Home</a>
 	    </li>
@@ -123,96 +140,88 @@
 	    </li></ul>
 	    </nav>    
 	    </div>                
-          <div id="js-home-header-images" class="home-header-images"><div class="home-header-image image1 current-item" data-index="0" style="display: block; "></div><div class="home-header-image image2" data-index="1" style="display: none; "></div><div class="home-header-image image3" data-index="2" style="display: none; "></div><div class="home-header-image image4" data-index="3" style="display: none; "></div></div>
+       	</header>
+		<div style="margin:0 auto;z-index:9999;"><img src="images/contact-us.jpg" style="width:100%;height:250px;z-index:9999;border-top: 1px solid #eee;"></div>
+  <div class="container clearfix" style="width:950px; padding:0;margin-top: -7px;border-radius: 0;margin-bottom:10px;">
+		<div class="relative">
 
-          <a href="#" class="next home-header-image-next" id="js-home-header-image-next" style="display: block; "></a>
-          <a href="#" class="previous home-header-image-previous" id="js-home-header-image-previous" style="display: none; "></a>
-	</header>
-  <div class="container clearfix">
-<!--TOP.PHP V2.00 END  -->
-    <div id="js-header-home-boxes" class="header-home-boxes lectric-slider" style="overflow: hidden; "><div class="items" style="width: 1000000px; left: 0px; "><div class="header-home-box" style="float: left; ">
-       <h1 class="hd" style="font-size: 50px;line-height: 60px;">Think IT, Think Pace IT</h1>
+      <div class="well well-contact clear" id="sophos-contact">
 
-      </div><div class="header-home-box" style="float: left; ">
-        <h1 class="hd" style="font-size: 40px;line-height: 50px;">Enabling Businesses with Innovation in IT</h1>
-        
-      </div><div class="header-home-box" style="float: left; ">
-        <h1 class="hd" style="font-size: 50px;line-height: 60px;">Optimise your IT Investments with Pace IT</h1>
-        
-      </div><div class="header-home-box" style="float: left; ">
-        <h1 class="hd" style="font-size: 50px;line-height: 60px;">Agile Software Solutions</h1>
-       
-      </div></div><div id="home-scrubber" style="width: 48px; overflow: hidden; " class="lectric-slider">
-        <div class="items" style="width: 1000000px; left: 0px; "><div class="item" style="float: left; "></div><div class="item" style="float: left; "></div><div class="item" style="float: left; "></div><div class="item" style="float: left; "></div></div>
-      </div></div>
-
-    <!-- Introduction -->
-
-    <div class="home-intro">
-
-      <h1 class="hd">Pace IT Solutions & Services enables organizations to offer trusted and 
-		convenient digital services to millions of individuals. </h1>
-
-      <div class="home-section-list">
-        <ul class="col-1">
-          <li class="theme-banks"><a class="icon arrow-right" href="industries.html#MediaEntertainment">Media & Entertainment</a></li>
-          <li class="theme-government"><a class="icon arrow-right" href="industries.html#TravelHospitality">Travel & Hospitality</a></li>
-          <li class="theme-telecom"><a class="icon arrow-right" href="industries.html#Telecom">Telecommunications</a></li>
-          
-       </ul>
-       <ul class="col-2">
-
-          <li class="theme-transport"><a class="icon arrow-right" href="industries.html#RetailDistribution">Retail & Distribution</a></li>
-          <li class="theme-transport"><a class="icon arrow-right"href="industries.html#HealthcareLifeSciences" style="display:block;width:180px;background-position:0 -1194px;padding-bottom:0;">Healthcare & Life Sciences</a></li>
-          
+      
+        <ul id="contact-locations" class="tab-list ">
+        <li class="selected"><a href="#">United Kingdom</a></li>
         </ul>
-        <p class="intro-all-brands"><a href="industries.html">See all our solutions</a></p>
+        
+      <!-- /COUNTRIES LIST -->
+
+      <!-- CONTACT CONTENT -->
+        <div class="contact-content">
+
+        
+        <div class="pane" style="">
+
+            <h2>Pace IT Solutions & Services, UK</h2>
+
+            <div class="contact-content-description clear">
+
+            <div style="float:left; width:485px;">
+           <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in lorem vitae nibh ultrices adipiscing. In fringilla auctor mauris ac mollis, Sed pharetra consectetur risus eu blandit. Fusce volutpat adipiscing eleifend. Aliquam gravida mollis odio, a consequat urna dictum quis.
+           </p></div>
+</div>
+            <div class="contact-details clear">
+              <div class="contact-details-left">
+                <div class="contact-details-main clear">
+                  <h3>United Kingdom Headquarters</h3>
+                  <div class="contact-details-inner">
+                    <p class="big-number">770-400-5800</p>
+                  </div>
+                  <div class="contact-details-inner">
+                    <address>
+                      <p>
+                        Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing
+                        elit. Donec in lorem vitae
+                      </p>
+                    </address>
+                  </div>
+                </div>
+                <div class="contact-details-subordinate clear">
+                  <div class="contact-details-inner">
+                    <h3>United Kingdom Headquarters</h3>
+                    <p>
+                      Toll Free: 770-400-5800
+                      <br>
+                    </p>
+                  </div>
+                  <div class="contact-details-inner">
+                    <h3>Channel Sales</h3>
+<p>Donec in lorem vitae nibh ultrices adipiscing. In fringilla auctor mauris ac mollis, Sed pharetra consectetur risus eu blandit. Fusce volutpat adipiscing eleifend. Aliquam gravida mollis odio, a consequat urna dictum quis.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="contact-details-right">
+                <h3>Customer Service</h3>
+                <p>
+                  Toll Free: 770-400-5800<br>(44 770-400-5800)
+                  <br>
+                  <a href="">customercare@abc.com</a>
+                </p>
+                <h3>Technical Support</h3>
+                <p>
+                  Toll Free: 770-400-5800<br>(44 770-400-5800)
+                  <br>
+                  <a href="">supportus@abc.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+       </div>
       </div>
-
-      <div class="bd">
-        <p style="font-size: 28px;">
-
-          Find out what Pace IT Solutions & Services can do for you
-        </p>
-      </div>
-
-      <div class="shadow left"></div>
-      <div class="shadow right"></div>
     </div>
-
-    <!-- Focus boxes -->
-
-    <div class="box-33 focus image-only" style="">
-<a href="Services.html#BusinessSolutions">
-      <img border="0" src="images/footerImage1.jpg" width="293" height="165">
-      <span style="position: relative;top: -34px;color: #fff;text-decoration: none;font-weight: bold;text-shadow: 1px 1px 1px #000;text-align: center;display: block;">Business Solutions</span>
-</a>
-    </div>
-
-    <div class="box-33 focus image-only">
-    <a href="Services.html#DigitalMarketing">
-       <img border="0" src="images/footerImage2.jpg" width="293" height="165">
-      <span style="position: relative;top: -34px;color: #fff;text-decoration: none;font-weight: bold;text-shadow: 1px 1px 1px #000;text-align: center;display: block;">Digital Marketing</span>
-	</a>
-	</div>
-
-    <div class="box-33 focus image-only last">
-    <a href="Services.html#SystemIntegration">
-       <img border="0" src="images/footerImage3.jpg" width="293" height="165" style="">
-      <span style="position: relative;top: -34px;color: #fff;text-decoration: none;font-weight: bold;text-shadow: 1px 1px 1px #000;text-align: center;display: block;">Systems Integration</span>
-	</a>
-	</div>
   </div>
-
-
-
-<!--FOOTER.PHP V2.00 BEGIN  -->
-
-    </div> <!-- main div -->
-
-	
-  <!-- Footer -->
-
+    </div> 
   <footer>
     <div class="footer-navigation">
       <div class="container clearfix">

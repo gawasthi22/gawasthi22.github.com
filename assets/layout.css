@@ -88,8 +88,10 @@ header {
 }
 
 .header-logo {
-  display: block;
-  margin: 25px 0;
+display: block;
+margin: 12px 0;
+height: 110px;
+width: 110px;
 }
 
 .home-header-images {
@@ -482,17 +484,17 @@ header .container nav a:active {
 
 }
  .header-home-boxes {
-    top: -300px;
+    top: -350px;
     opacity:0.7;
     filter: alpha(opacity = 70);
   }
   .headerGradient{
  background: #fff;
-background: -moz-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
-background: -webkit-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
-background: -o-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
-background: -ms-linear-gradient(top, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
-background: linear-gradient(to bottom, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
+background: -moz-linear-gradient(top, #00622f 0%,#b7dc7c 0.4%, #fff 12%);
+background: -webkit-linear-gradient(top, #00622f 0%,#b7dc7c 0.4%, #fff 12%);
+background: -o-linear-gradient(top, #00622f 0%,#b7dc7c 0.4%, #fff 12%);
+background: -ms-linear-gradient(top, #00622f 0%,#b7dc7c 0.4%, #fff 12%);
+background: linear-gradient(to bottom, #00622f 0%,#b7dc7c 0.4%, #fff 12%);
 }
 
 .sub-navigation .ul-solutions > li > a,
@@ -566,7 +568,7 @@ background: linear-gradient(to bottom, #cfcfcf 1%,#f1f1f1 4%, #fff 12%);
 }
 
 .home-intro > .hd {
-  width: 95%;
+  width: 800px;
   color: #303030;
   margin: 10px 0 25px 0;
   font-size: 27px;
@@ -952,7 +954,7 @@ footer {
 }
 
 .footer-copyright {
-  color: #363636;
+  color: #044d7a;
   font-size: 12px;
   text-decoration: none;
 }
@@ -979,4 +981,45 @@ footer {
   font-size: 13px;
   color: #515151;
   text-decoration: none;
+}
+.greyarrow{
+padding:0px;
+margin:0;
+}
+.greyarrow li{
+padding-left: 25px;
+background: url('../images/icons.png') scroll no-repeat left center transparent;
+background-position: 0 -1344px;
+list-style: none;
+}
+.mediaheaderright{
+	font-family: 'ff-din-web-pro','Lucida Sans Unicode', 'Lucida Grande';
+	color: #303030;
+	font-size: 15px;
+	float:right;
+	margin-top: -17px;
+	margin-right: -125px;
+}
+.mediaheaderright a{
+	text-decoration: none;
+display: inline;
+float: left;
+}
+.careerhover{
+	display:none;
+background: #fff;
+border: 1px solid #ccc;
+padding: 5px;
+position: absolute;
+z-index: 10000;
+width: 305px;
+right: -130px;
+}
+.careers:hover .careerhover{
+	display:block;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.header-home-boxes{
+	top:-300px;
+	}
 }
