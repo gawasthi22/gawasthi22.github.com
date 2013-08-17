@@ -396,6 +396,7 @@ header .container nav a:active {
   margin-top: 0;
   color: #fa821e;
  /* color: #ec6e05; */
+  font-weight: 700;
 }
 
 .header-home-box .bd {
@@ -486,7 +487,7 @@ header .container nav a:active {
 }
  .header-home-boxes {
     top: -350px;
-    opacity:0.9; 
+    opacity:0.7; 
     filter: alpha(opacity = 70); 
   }
   .headerGradient{
