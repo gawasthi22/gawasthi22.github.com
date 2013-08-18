@@ -627,3 +627,10 @@ table {
 .hr hr {
   display: none;
 }
+
+
+.typekit-badge{
+
+display: none ! important;
+
+}
