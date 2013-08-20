@@ -5,6 +5,7 @@
   <link rel="stylesheet" media="screen" href="assets/base.css">
   <link rel="stylesheet" media="screen" href="assets/layout.css">
   <link rel="stylesheet" media="screen" href="assets/modules.css">
+  <link rel="stylesheet" media="screen" href="assets/jqueyui.css" />
  
 
 
@@ -64,14 +65,25 @@ background: linear-gradient(to bottom, #00622f 0%,#b7dc7c 1%, #fff 37%);
   </style>
 
 <script type="text/javascript">
-  (function() {
-    var config = {
-      kitId: 'szy1bhu',
-      scriptTimeout: 3000
-    };
-   var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-  })();
-</script> 
+function privacyclick(){ 
+	  $('#privacypolicy').dialog(
+		  {width:700,
+		    top:100,
+			modal: true});
+}
+function diclaimerclick(){ 
+	  $('#diclaimerdiv').dialog(
+		  {width:700,
+		    top:100,
+			modal: true});
+}
+function termsclick(){ 
+	  $('#termsdiv').dialog(
+		  {width:700,
+		    top:100,
+			modal: true});
+}
+</script>  
 
 <meta name="description" content="">
 <meta name="keywords" content="">
@@ -250,13 +262,87 @@ Telecom industry has entered into an era of consolidation and changes; developin
           <a href="http://www.linkedin.com/"><img src="images/icon-linkedin.png" alt="LinkedIn" width="22" height="22"></a>
         </div>
 
-        <p>
-          <a class="footer-copyright" href="privacy_policy.html">Privacy policy</a> |
-          <!--<a class="footer-copyright" href="sitemap.html">Sitemap</a> |-->
-          <a class="footer-copyright" href="disclaimer.html">Disclaimer</a> |
-          <a class="footer-copyright" href="terms-conditions.html">Terms &amp; Conditions |</a>
+              <p>
+          <a class="footer-copyright" href="#" onClick="privacyclick()">Privacy policy |</a> 
+          <a class="footer-copyright" href="#" onClick="diclaimerclick()">Disclaimer |</a> 
+          <a class="footer-copyright" href="#" onClick="termsclick()">Terms &amp; Conditions |</a>
           <span class="footer-copyright">© 2013 Pace IT Solutions & Services</span>
         </p>
+<div id="privacypolicy" style="display:none;font-size:12px;text-align:justify" title="Privacy Policy">
+<h3 style="margin-bottom:10px;">Privacy and data security</h3>
+<p>
+Pace IT Solutions and Services always respects your online privacy and security:
+</p>
+<ul style="margin-top:0;">	
+<li>We will only collect, store or use your personal information for specific purposes.</li>
+<li>We use your information to support and enhance our relationship with you, for example to provide information that will support any applications you may make.</li>
+<li>We do not sell your personal information.</li>
+<li>At any time you may contact Pace IT Solutions & Services with any questions or concerns you may have with respect to this privacy policy.</li>
+</ul>
+<p>
+You may also ask at any time to be informed about the personal data that Pace IT Solutions & Services holds about you and request, as appropriate, correction or deletion.
+</p>
+<p style="font-weight:bold;">Newsletters, mailing lists, requests for information</p>
+<p>
+We will send you information about our various products and services, or other products and services that may be of interest to you. If you do not want to receive such mailings any longer, simply contact us.
+</p>
+<p style="font-weight:bold;">
+Use of Cookies</p>
+<p>
+Cookies are used on this website to collect information about your use of the website and to measure the website's performance. This allows us to create more of the pages that users like and to remove unused content. When you visit the website you can allow or disallow it to store cookies on your computer's hard drive, by customising your cookie preferences using your web browser's preferences/options/tools. 
+</p>
+<p>
+Your information is not disclosed to any third parties. We may disclose or access your account if required to do so by law. If you have any questions, please contact us.
+</p>
+</div>
+
+<div id="diclaimerdiv" style="display:none;font-size:12px;text-align:justify" title="Diclaimer">
+<h3 style="margin-bottom:10px;">LICENSE DISCLAIMER</h3>
+<p>
+Nothing on any Pace IT Solutions & Services  website shall be construed as conferring any license under any of Pace IT Solutions & Services  or any third party's intellectual property rights, whether by estoppels, implication, or otherwise.</p>
+<p style="font-weight:bold;">
+CONTENT AND LIABILITY DISCLAIMER</p>
+<p>
+Pace IT Solutions & Services  shall not be responsible for any errors or omissions contained on any Pace IT Solutions & Services  website, and reserve the right to make changes anytime without notice. Mention of non-Pace IT Solutions & Services  products or services is provided for informational purposes only and constitutes neither an endorsement nor a recommendation by Pace IT Solutions & Services. All Pace IT Solutions & Services  and third-party information provided on any Pace IT Solutions & Services  website is provided on an "as is" basis.
+</p><p>Pace IT Solutions & Services  DISCLAIMS ALL WARRANTIES, EXPRESSED OR IMPLIED, WITH REGARD TO ANY INFORMATION (INCLUDING ANY SOFTWARE, PRODUCTS, OR SERVICES) PROVIDED ON ANY Pace IT Solutions & Services  WEBSITE, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+</p><p>Some jurisdictions do not allow the exclusion of implied warranties, so the above exclusion may not apply to you. In no event shall Pace IT Solutions & Services  be liable for any damages whatsoever, and in particular Pace IT Solutions & Services  shall not be liable for direct, special, indirect, consequential, or incidental damages, or damages for lost profits, loss of revenue or loss of use, cost of replacement goods, loss or damage to data arising out of the use or inability to use any Pace IT Solutions & Services  website, any Pace IT Solutions & Services  product or service. This includes damages arising from use of or in reliance on the documents or information present on any Pace IT Solutions & Services  website (including any information posted or placed by anyone other than Pace IT Solutions & Services ), even if Pace IT Solutions & Services  has been advised of the possibility of such damages.
+</p>
+</div>
+
+<div id="termsdiv" style="display:none;font-size:12px;text-align:justify" title="Terms &amp; Conditions">
+<p style="margin-top:10px;">
+Copyright  2013. All rights reserved — Pace IT Solutions & Services website notices and disclaimers. This website is owned by Pace IT Solutions & Services. Pace IT S & S is the trademarks of Pace IT Solutions & Services</p>
+<p>
+Company name: PACE IT SOLUTIONS AND SERVICES LTD</br>
+Registered company no: 8598357</br>
+VAT no: </br>
+Registered address: Ground Floor, 2 Woodberry Grove LONDON NI2 ODR ENGLAND</p>
+<p>
+1. Except where expressly indicated nothing on this website constitutes an offer to enter into legal relations, including but not limited to contractual obligations.
+</br>
+2. While Pace IT Solutions & Services takes care and every precaution to ensure that the information contained on this website is accurate and up to date at the time of updating which shall be carried out from time to time as Pace IT Solutions & Services sees fit the information on this website is disclosed "as is" and without any warranty of any kind. Pace IT Solutions & Services accepts no responsibility or liability for any loss or damage howsoever caused as a result of any information contained on this website.
+</br>
+3. Pace IT Solutions & Services  is not responsible for and makes no endorsement or certification as to the integrity or accuracy of the contents of any third party information included on this website. Pace IT Solutions & Services  recommends that you verify such information with these parties directly.
+</br>
+4. Pace IT Solutions & Services  is not responsible for the content of any external sites. Any links to external sites from this one are undertaken at your own risk and without reliance upon any information, representation or certification from Pace IT Solutions & Services, its employees or agents.
+</br>
+5. References to any product or service which has been or may be provided by Pace IT Solutions & Services  or any third party company shall not constitute promises as to the availability of such products or services at any time. Pace IT Solutions & Services reserves the right to make any improvements in and/or changes to products and services described on this website at any time without notice.
+</br>
+6. Please note that any personal information you provide may be used by Pace IT Solutions & Services or our agents for the purpose of customer/client Administration as defined by the Data Protection Act 1998.
+</br>
+7. Except as indicated Pace IT Solutions & Services  or its subsidiaries own the copyright to or valid license in the contents of this website. All rights are reserved in respect of all trademarks, trade or brand names registered or otherwise, owned or held by Pace IT Solutions & Services  and / or its subsidiaries.
+</br>
+8. This site is operated and controlled in the United Kingdom and is governed by English law. Those who choose to access this site from other locations do so on their own initiative and are responsible for compliance with local laws, if and to the extent local laws are applicable.
+</p>
+<p style="font-weight:bold;">Legal disclaimer</p>
+<p>
+By accessing PACE IT SOLUTIONS & SERVICES's World Wide Web pages, you agree to the following terms. Please note that you must not access our pages if you do not agree to all of the terms below in their entirety.
+</p><p style="font-size:14px">THE ENTIRE CONTENTS OF ANY AND ALL INFORMATION PUBLISHED ON THE WORLD WIDE WEB BY OR ON BEHALF OF PACE IT SOLUTIONS & SERVICES IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. NOTWITHSTANDING THE ABOVE AND TO THE FULLEST EXTENT ALLOWED BY LAW PACE IT SOLUTIONS & SERVICES HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE CONTENTS OF THIS INFORMATION INCLUDING ALL IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT EXCEPT WHERE SUCH DISCLAIMERS ARE HELD TO BE LEGALLY INVALID. IN NO EVENT SHALL PACE IT SOLUTIONS & SERVICES BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OR ANY OTHER DAMAGES WHATSOEVER HOWSOEVER ARISING IN CONNECTION WITH ANY OF THE INFORMATION DISCLOSED OR AVAILABLE ON ITS WORLD WIDE WEB SITE FROM TIME TO TIME, EVEN IF PACE IT SOLUTIONS & SERVICES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+</p><p>The information may contain technical inaccuracies or typographical errors. Changes are made periodically to the information and Pace IT Solutions & Services  reserves the right to make any improvements and/or changes to the contents of this site or to any of its products or services described on its World Wide Web pages at any time and without notice.
+</p><p>Reproduction, transfer, distribution or storage of part or all of the contents of Pace IT Solutions & Services World Wide Web pages in any form without the prior written consent of Pace IT Solutions & Services  is strictly prohibited. Individual documents in our World Wide Web pages may be subject to additional terms as indicated in those documents.
+</p><p>The contents of this site are protected by copyright and other proprietary rights, which are the property of the Pace IT Solutions & Services and / or its subsidiaries as owner or authorised licensee and are subject to the following copyright notice. PACE IT SOLUTIONS & SERVICES. All rights reserved.
+</p>
+</div>
 
 
       </div>
@@ -278,6 +364,7 @@ Telecom industry has entered into an era of consolidation and changes; developin
     <div class="nav-info"></div>
   </div>
 <script src="assets/jquery-1.7.2.min.js"></script>
+<script src="assets/jquery-ui.js"></script>
 <script src="assets/jquery.backgroundposition.js"></script>
 <script src="assets/jquery.scrollTo-min.js"></script>
 <script src="assets/jquery.localscroll-min.js"></script>
