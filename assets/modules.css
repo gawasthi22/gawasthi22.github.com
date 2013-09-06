@@ -17,9 +17,7 @@ MODULES.CSS
 
 .icon {
   background: url(../images/icons.png) no-repeat 0 0;
-  padding: 1px 0 3px 23px;
-  padding: 3px 0 3px 23px \0/; /* Fix: IE8+9 */
-  *padding: 4px 0 4px 23px; /* Fix: IE7 */
+  padding: 1px 0 1px 23px;
   color: #3c3c3c;
   font-weight: bold;
   text-decoration: none;
@@ -39,7 +37,7 @@ MODULES.CSS
 }
 
 .arrow-right {
-  background-position: 0 -1200px;
+  background-position: 0 -1194px;
 }
 
 .download {

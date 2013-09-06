@@ -1,11 +1,12 @@
 
 body {
-  background: #f6f6f6;
-  color: #0e0500;
-  font-size: 14px;
-  line-height: 23px;
+background: #f6f6f6;
+color: #0e0500;
+font-size: 1em;
+line-height: 23px;
+width: 100%;
+margin: 0 auto;
 }
-
 .container {
   position: relative;
   margin: 0 auto;
@@ -356,26 +357,8 @@ header .container nav a:active {
   width: 12px;
 }
 
-
-/* White box */
-
 .header-home-boxes {
   position: absolute;
-  width: 330px;
-  height: 260px;
-  background: url(../images/bg-home-topimage-box.png) 0 0 no-repeat;
-  top: -440px;
-  padding: 40px;
-
-  /*
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-left-radius: 0;
-   */
 }
 /* Fix for Webkit position error */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -425,14 +408,7 @@ header .container nav a:active {
 
 }
 
-
-/* ============================================================================
-   Header: Screens where height < 900px
-   ========================================================================= */
-
-@media screen and (max-height: 900px) {
-
-  .topbar {
+ .topbar {
     background: #fff;
   }
 
@@ -483,9 +459,17 @@ header .container nav a:active {
     top: 150px;
   }
 
+/* ============================================================================
+   Header: Screens where height < 900px
+   ========================================================================= */
+
+@media screen and (max-height: 900px) {
+
+ 
 }
  .header-home-boxes {
-    top: -350px;
+    top: 37%;
+	left: 10%;
     opacity:0.7; 
     filter: alpha(opacity = 70); 
   }
@@ -550,59 +534,52 @@ background: linear-gradient(to bottom, #00622f 0%,#b7dc7c 0.4%, #fff 12%);
    ========================================================================= */
 
 .home-intro {
-  position: relative;
-  color: #212121;
-  background: url(../images/bg-home-intro.png) no-repeat 0 0;
-
-  /*
-  -webkit-border-top-right-radius: 30px;
-  -moz-border-radius-topright: 30px;
-  border-top-right-radius: 30px;
-   */
-
-  font-size: 16px;
-  line-height: 26px;
-  padding: 40px 95px 80px 95px;
-
-  margin-top: -50px;
-  *margin-top: 0; /* IE7 and below */
+position: relative;
+color: #212121;
+background: url(../images/bg-home-intro.png) no-repeat 0 0;
+font-size: 16px;
+line-height: 26px;
+padding: 40px 10% 80px 10%;
+margin-top: -50px;
+width: 80%;
+background-size: 100%;
 }
 
 .home-intro > .hd {
-  width: 800px;
-  color: #303030;
-  margin: 10px 0 25px 0;
-  font-size: 27px;
-  line-height: 1.3;
+	width: 100%;
+	color: #303030;
+	margin: 10px 0 25px 0;
+	font-size: 155%;
+	line-height: 135%;
 }
 
 .home-intro > .bd {
-  width: 37%;
-  color: #303030;
-  margin: 37px 0 10px 0;
-  font-size: 36px;
-  line-height: 1.1;
-  text-transform: uppercase;
-  font-weight: 300;
+width: 40%;
+color: #303030;
+margin: 37px 0 10px 0;
+line-height: 1.1;
+text-transform: uppercase;
+font-weight: 300;
+height: 10em;
 }
-
 .home-section-list {
-  width: 410px;
-  padding: 33px 20px 20px 20px;
-  float: right;
+width: 50%;
+padding: 40px 5% 20px 5%;
+float: right;
 }
 
 .home-section-list li {
-  padding: 2px 8px;
+  padding: 1px 0px;
 }
 
 .home-section-list a {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 0.01em;
-  color: #212121;
-
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 0.01em;
+	color: #212121;
+	display: block;
+	width:100%;
 }
 
 .home-section-list .col-1 {
@@ -1030,18 +1007,11 @@ right: -130px;
 	text-shadow:1px 1px 1px #000;
 	display:inline;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	.header-home-boxes{
-	top:-300px;
-	}
+.Headertext span{
+	font-size:21px;color:#888888;text-shadow:none; border-left:1px solid #ccc;
 }
-@media screen and (max-width : 1024px){
-	.container {
-		position: relative;
-		margin: 0 auto;
-		width: 940px;
-		padding: 0 20px 0 20px;
-	}
+
+	
 	#wrapperinnercontmain{
 		width: 910px;
 		padding: 20px;
@@ -1050,5 +1020,65 @@ right: -130px;
 		width: auto;
 		padding-right: 20px;
 	}
+	.header-home-boxes {
+	width: 24%;
+	}
 
+@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) and (orientation : portrait) {
+.home-intro > .hd {
+	font-size: 26px !important;
+	line-height: 29px !important;
+	}
+}
+@media screen and (max-width : 1024px){
+	
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 96%;
+	padding: 0 2% 0 2%;
+	}
+	.header-home-boxes {
+	width: 30%;
+	}
+	.home-intro > .hd {
+	font-size: 100%;
+	line-height: 110%;
+	}
+}
+@media screen and (max-width : 1024px){
+	.home-intro > .hd {
+	font-size: 155%;
+	line-height: 135%;
+	}
+}
+@media screen and (max-width : 960px){
+	.home-intro > .hd {
+	font-size: 145%;
+	line-height: 125%;
+	}
+}
+@media screen and (max-width : 640px){
+	.home-intro > .hd {
+	font-size: 135%;
+	line-height: 115%;
+	}
+}
+@media screen and (max-width : 480px){
+	.home-intro > .hd {
+	font-size: 125%;
+	line-height: 110%;
+	}
+}
+@media screen and (max-width : 480px){
+	.home-intro > .hd {
+	font-size: 115%;
+	line-height: 110%;
+	}
+}
+@media screen and (max-width : 320px){
+	.home-intro > .hd {
+	font-size: 100%;
+	line-height: 105%;
+	}
 }
